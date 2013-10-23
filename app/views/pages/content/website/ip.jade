@@ -1,5 +1,11 @@
 extends ../../master/website
 
+block subtitle
+  | Your public IP Address
+block pagemeta
+  meta(name='description', content='Dev Helpers - Get your public IP address.')
+  meta(name='keywords', content='ip, ipaddress, public ip address, whats my ip, whatismyip, find ip, get ip, remote ip, internet protocol address')
+
 
 block content
   .jumbotron
@@ -7,5 +13,5 @@ block content
         h1 IP Address
 
   .container.text-center
-        h1 #{ipAddress}
+        h2 #{ipAddress}
         p Your Public IP Address
