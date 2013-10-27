@@ -1,8 +1,7 @@
 var express = require('express'),
   http = require('http'),
   helmet = require('helmet'),
-  toolbox = require('./config/toolbox'),
-  newrelic = require('./newrelic')
+  toolbox = require('./config/toolbox')
 
 
 
